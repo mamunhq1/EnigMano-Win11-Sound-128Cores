@@ -12,7 +12,6 @@ jobs:
   deploy-enigmano:
     name: "🚀 Deploy EnigMano Instance ${{ github.event.inputs.INSTANCE }}"
     runs-on: windows-11-arm
-    runs-on: self-hosted
 
     env:
       INSTANCE_ID: ${{ github.event.inputs.INSTANCE }}
